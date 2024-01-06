@@ -5,6 +5,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* common shared styles */
+body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
 .container{
     max-width: 1280px;
     margin: auto;
@@ -23,19 +29,28 @@
     background-image: url('/images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
-    position: relative;
     height: 100vh;
     background-position: center left;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   
 }
-.header-area-text{
+/* .header-area-text{
     position: absolute;
     left: 50%;
     top: 30%;
     right: 100px;
-    text-align: right;
+    text-align: right; */
 
         
+/* } */
+.header-area-text{
+    width: 50%;
+    text-align: right;
+    padding: 0 5%;
+    
 }
 .header-area-title{
     color:#151414;
@@ -63,7 +78,15 @@
     /* align-items: center; */
     text-align: left;
     margin: 0 auto;
+    width: 50%;
     
+}
+.faliours-img{
+    width: 50%;
+    text-align: center;
+}
+.faliours-description {
+    width: 70%;
 }
 .faliours-title{
     /* text-align: center; */
