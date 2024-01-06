@@ -128,3 +128,41 @@ margin-bottom: 24px;
 
 
 }
+/* fotter area css  */
+.footer-area{
+    background-color:  #151414;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    padding: 100px;
+    gap: 40px;
+}
+.footer-left{
+    width: 50%;
+    text-align: left;
+    
+}
+.footer-right{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.input-email{
+    width: 300px;
+    height: 64px;
+background-color: #151414;
+color: #fff;
+border-radius: 8px;
+border: 1px solid #FFF;
+text-align: center;
+}
+.footer-title{
+    margin-bottom: 10px;
+}
+.footer-dis{
+    margin-bottom: 20px;
+}
