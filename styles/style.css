@@ -75,3 +75,31 @@ margin-bottom: 24px;
     font-weight: 400;
     margin-bottom: 25px;
 }
+/* my plan section */
+.my-plan{
+    padding: 60px;
+    margin-top: 50px;
+}
+.section-title{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-info{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-details{
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+}
+.plan-dis{
+    margin-top: 5px;
+    padding: 5px;
+}
+.plan-title{
+    margin-top: 5px;
+    padding: 5px;
+}
