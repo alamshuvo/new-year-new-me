@@ -25,6 +25,8 @@
     background-size: cover;
     height: 800px;
     position: relative;
+    height: 100vh;
+    background-position: center left;
 }
 .header-area-text{
     position: absolute;
